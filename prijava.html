@@ -42,29 +42,30 @@
     <div class="div-block-11">
       <div class="form-block-4 form-narudzba w-form">
     <div class="form-block-4 form-narudzba w-form">
-  <form id="Email-form" name="wf-form-Email-Form" data-name="Email Form" method="POST" data-netlify="true" class="form-2 form-kutija">
-    <input class="unos w-input" maxlength="256" name="Ime" data-name="Ime" placeholder="Ime*" type="text" id="Ime-3" required>
-    <input class="unos w-input" maxlength="256" name="Prezime" data-name="Prezime" placeholder="Prezime" type="text" id="Prezime-2">
-    <input class="unos w-input" maxlength="256" name="Adresa-dostave" data-name="Adresa dostave" placeholder="Adresa dostave*" type="text" id="Adresa-dostave" required>
-    <input class="unos w-input" maxlength="256" name="Broj-telefona" data-name="Broj telefona" placeholder="Broj telefona" type="text" id="Broj-telefona">
-    <input class="unos w-input" maxlength="256" name="E-mail" data-name="E-mail" placeholder="E-mail" type="email" id="E-mail"> <!-- E-mail nije obavezno -->
-    
-    <select id="vrsta-narudzbe" name="vrsta-narudzbe" data-name="Vrsta narudžbe" required class="unos w-select">
-      <option value="" disabled selected>Odaberite vrstu narudžbe</option> <!-- Zadan izbor -->
-      <option value="Cvjetni med">Cvjetni med</option>
-      <option value="Bagremov med">Bagremov med</option>
-      <option value="Lješnjak">Lješnjak</option>
-    </select>
+  <form id="Email-form" name="contact" action="/" method="POST" netlify>
+  <input class="unos w-input" maxlength="256" name="Ime" data-name="Ime" placeholder="Ime*" type="text" id="Ime-3" required="">
+  <input class="unos w-input" maxlength="256" name="Prezime" data-name="Prezime" placeholder="Prezime" type="text" id="Prezime-2">
+  <input class="unos w-input" maxlength="256" name="Adresa-dostave" data-name="Adresa dostave" placeholder="Adresa dostave*" type="text" id="Adresa-dostave" required="">
+  <input class="unos w-input" maxlength="256" name="Broj-telefona" data-name="Broj telefona" placeholder="Broj telefona" type="text" id="Broj-telefona">
+  <input class="unos w-input" maxlength="256" name="E-mail" data-name="E-mail" placeholder="E-mail" type="text" id="E-mail"> <!-- E-mail nije obavezno -->
+  
+  <select id="vrsta-narudzbe" name="vrsta-narudzbe" data-name="Vrsta narudžbe" required="" class="unos w-select">
+    <option value="" disabled selected>Odaberite vrstu narudžbe</option>
+    <option value="Cvjetni med">Cvjetni med</option>
+    <option value="Bagremov med">Bagremov med</option>
+    <option value="Lješnjak">Lješnjak</option>
+  </select>
 
-    <textarea id="field-3" name="Napomena" maxlength="5000" data-name="Napomena" placeholder="Količina ili napomena..." class="unos kolicina w-input"></textarea>
-    
-    <label class="w-checkbox potvrda">
-      <input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" required class="w-checkbox-input">
-      <span class="checkbox-label w-form-label">Potvrđujem da sam upoznat s <a href="#sekcija-politika-privatnosti" class="link">Pravilima o privatnosti</a> i dajem suglasnost da se moji podaci prikupljaju, spremaju i obrađuju.</span>
-    </label>
-    
-    <input type="submit" data-wait="Molimo pričekati..." class="button submit-button w-button" value="Potvrdi">
-  </form>
+  <textarea id="field-3" name="field-3" maxlength="5000" data-name="Field 3" placeholder="Količina ili napomena..." class="unos kolicina w-input"></textarea>
+  
+  <label class="w-checkbox potvrda">
+    <input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" required="" class="w-checkbox-input">
+    <span class="checkbox-label w-form-label" for="checkbox">Potvrđujem da sam upoznat s <a href="#sekcija-politika-privatnosti" data-w-id="4461ee59-7c49-b0bf-5a2f-d41ab8be05cc" class="link">Pravilima o privatnosti</a> i dajem suglasnost da se moji podaci prikupljaju, spremaju i obrađuju.</span>
+  </label>
+  
+  <input type="submit" data-wait="Molimo pričekati..." class="button submit-button w-button" value="Potvrdi">
+</form>
+
 </div>
 <div class="success-message w-form-done">
   <img src="images/squirrel.png" loading="lazy" width="91" sizes="100vw" alt="" srcset="images/squirrel-p-500.png 500w, images/squirrel.png 512w" class="image-11 vjeverica">
